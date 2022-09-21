@@ -1,0 +1,200 @@
+body {
+  font-family: Lato, sans-serif;
+  color: #424551;
+}
+
+header {
+  font-family: "Roboto";
+  font-weight: 900;
+  font-size: 46px;
+  text-align: center;
+  color: #8e3abc;
+  margin-top: 40px;
+}
+
+.header-span {
+  min-width: 810px;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1 {
+  font-family: Lato;
+  font-weight: 900;
+  font-size: 46px;
+  line-height: 59.8px;
+  margin-bottom: 40px;
+}
+
+main {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.container {
+  max-width: 869px;
+  margin: 0 auto;
+}
+
+.images {
+  border-radius: 4px;
+  margin-bottom: 40px;
+}
+
+.images > img {
+  width: 100%;
+}
+
+.description-bold {
+  font-family: Lato;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.description-normal {
+  font-family: Lato;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25.6px;
+}
+
+.description-normal p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.info {
+  margin-bottom: 20px;
+  padding-left: 20px;
+}
+
+li.info__item {
+  margin-bottom: 5px;
+}
+
+/* ========================================================================= */
+
+h2 {
+  font-family: "Larsseit";
+  font-weight: 900;
+  font-size: 46px;
+  text-align: center;
+  color: #1e212c;
+  margin: 40px;
+}
+
+.experiment-one {
+  margin-bottom: 100px;
+  border-top: 15px solid blue;
+  border-left: 15px dotted yellow;
+  border-right: 15px double blue;
+  border-bottom: 15px dashed yellow;
+}
+
+.experiment-one p {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 59.8px;
+  padding: 50px;
+  color: #1e212c;
+}
+
+.two-experiment-hidden {
+  background-color: red;
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  visibility: hidden;
+}
+
+.experiment-three {
+  display: none;
+  background-color: tan;
+  padding: 50px;
+}
+
+.experiment-four {
+  max-width: 100%;
+  min-height: 150px;
+  background-color: rgb(225, 225, 238);
+  border-radius: 50px 20px 40px 15px;
+  overflow: hidden;
+  box-shadow: 10px 10px 50px #235d4e, inset 15px 5px 40px #ca3737;
+  margin: 0 auto;
+  color: #000;
+  margin-bottom: 100px;
+  text-decoration: line-through;
+}
+
+.experiment-five {
+  padding: 20px;
+  margin: 0 auto 20px;
+  min-width: 300px;
+  max-height: 150px;
+  color: #fff;
+  background-color: rgb(0, 128, 122);
+  overflow: scroll;
+}
+
+.experiment-six {
+  border-radius: 50%;
+  border: 15px solid yellow;
+  background-color: blue;
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  opacity: 0.3;
+  text-align: center;
+  box-shadow: 10px 1px 4px 3px rgb(82, 82, 111), inset -1px -1px 4px 3px rgb(17 26 26);
+}
+
+.experiment-six p {
+  opacity: 0;
+}
+
+.experiment-seven {
+  display: none;
+}
+
+footer {
+  padding: 20px;
+  margin: 40px 0px;
+}
+
+/* ========================================================================= */
+
+.button_1 {
+  display: inline-block;
+  background-color: #7a956b;
+  padding: 15px;
+  color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 5px 0 #000;
+  transition: all 0.3s ease 0s;
+}
+
+.button_1:hover {
+  margin-top: 3px;
+  box-shadow: 0 2px 0 #000;
+}
+
+.button_2 {
+  display: inline-block;
+  background-color: #7a956b;
+  padding: 15px;
+  color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 5px 0 #000;
+  transition: all 0.3s ease 0s;
+}
+
+.button_2:hover {
+  margin-top: 3px;
+  box-shadow: 0 2px 0 #000;
+}
+
+/* ========================================================================= */
